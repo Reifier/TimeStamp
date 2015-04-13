@@ -21,15 +21,15 @@ import sys
 import urllib2
 import time
 import config
-import logging
 
 
 PROMPT = '>'
 #Description is set to this string by default
 DESCRIPTION = "General Administrative Tasks"
 INPUT = ''
-TIME_IN = '10.00'
-TIME_OUT = '13.30'
+#Default times to use
+TIME_IN = '10:00:00'
+TIME_OUT = '13:30:00'
 
 display = Display(visible=0, size=(800, 600))
 
